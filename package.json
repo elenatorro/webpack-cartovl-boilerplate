@@ -31,6 +31,7 @@
     "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@carto/carto-vl": "0.10.0",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
@@ -50,5 +51,7 @@
     "webpack-dev-server": "2.7.1",
     "webpack-merge": "4.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "mapbox-gl": "^0.47.0-beta.1"
+  }
 }
